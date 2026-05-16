@@ -1,88 +1,73 @@
-Grand Occasion 🎉
+# Grand Occasion 🎉
 
-Grand Occasion is a premium event booking and management platform for banquet halls and event venues. It allows users to browse venues, check availability, upload documents, make secure payments, and manage bookings easily.
+Grand Occasion is a premium event booking and management platform designed for banquet halls and event venues. The platform provides a seamless experience for customers to browse venues, check availability, upload required documents, and book event spaces online.
 
-✨ Features
-🎪 Browse and book banquet halls
-📅 Real-time availability checking
-📄 Document upload and verification
-💳 Secure payment integration
-👥 Multi-level admin approval system
-📊 Booking management dashboard
-🔐 Authentication with role-based access
-🛠️ Tech Stack
-Frontend
-React 18
-TypeScript
-Vite
-Tailwind CSS
-shadcn/ui
-Backend
-Supabase
-PostgreSQL Database
-Authentication
-Additional Tools
-React Router v6
-TanStack Query (React Query)
-date-fns
-📂 Project Structure
-src/
-├── components/
-│   ├── admin/
-│   ├── booking/
-│   ├── customer/
-│   └── ui/
-├── contexts/
-├── hooks/
-├── integrations/
-├── lib/
-└── pages/
-👨‍💼 Admin Roles
-Role	Responsibilities
-Admin1	Document Verification
-Admin2	Availability & Payment Management
-Admin3	Final Booking Approval
-Super Admin	Full System Management
-🚀 Getting Started
-Prerequisites
+The system includes a secure and efficient multi-level admin workflow for document verification, payment management, and booking approvals. It also offers a modern dashboard for managing bookings and user activities.
 
-Make sure you have:
+## Features
 
-Node.js 18+
-npm
-Supabase account
-⚙️ Installation
-# Clone the repository
-git clone <YOUR_GITHUB_REPO_URL>
+- Browse and book banquet halls and event venues  
+- Real-time availability management  
+- Secure authentication and role-based access  
+- Document upload and verification system  
+- Integrated payment processing  
+- Multi-tier admin approval workflow  
+- Booking management dashboard  
+- Responsive and user-friendly interface  
 
-# Navigate to the project folder
-cd grand-occasion
+## Tech Stack
 
-# Install dependencies
-npm install
+### Frontend
+- React 18  
+- TypeScript  
+- Vite  
+- Tailwind CSS  
+- shadcn/ui  
 
-# Start development server
-npm run dev
+### Backend
+- Supabase  
+- PostgreSQL Database  
+- Supabase Authentication  
 
-The app will run at:
+### Additional Libraries
+- TanStack Query (React Query)  
+- React Router v6  
+- date-fns  
 
-http://localhost:8080
-📜 Available Scripts
-npm run dev       # Start development server
-npm run build     # Build for production
-npm run preview   # Preview production build
-npm run lint      # Run ESLint
-npm run test      # Run tests
-🌐 Deployment
+## Project Structure
 
-You can deploy the project using:
+The project is organized into reusable components, route pages, hooks, contexts, utility functions, and backend integrations to maintain clean and scalable architecture.
 
-Vercel
-Netlify
-AWS Amplify
-Azure Static Web Apps
-🔒 Authentication & Security
-Secure login/signup using Supabase Auth
-Role-based access control
-Protected admin routes
-Secure booking workflow
+## Admin Roles
+
+### Admin1
+Responsible for document verification and initial approval process.
+
+### Admin2
+Handles availability checking and payment management.
+
+### Admin3
+Responsible for final booking approvals.
+
+### Super Admin
+Manages the complete platform with full administrative access.
+
+## Getting Started
+
+Install the required dependencies and start the development server to run the application locally.
+
+## Available Scripts
+
+- `npm run dev` – Starts the development server  
+- `npm run build` – Builds the application for production  
+- `npm run preview` – Previews the production build  
+- `npm run lint` – Runs ESLint checks  
+- `npm run test` – Runs project tests  
+
+## Deployment
+
+The application can be deployed on modern static hosting platforms such as Vercel, Netlify, AWS Amplify, and Azure Static Web Apps.
+
+## License
+
+All rights reserved.
